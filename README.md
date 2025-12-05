@@ -1,0 +1,1 @@
+HeritageHarvest Capital, founded by Allen Baker, provides accessible agrifund and micro-lending opportunities to conservative investors. Start from $100 and support local agriculture while earning steady returns.
