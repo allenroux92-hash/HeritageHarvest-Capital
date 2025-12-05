@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HeritageHarvest Capital — Launch Kit</title>
+  <meta name="description" content="HeritageHarvest Capital - Agrifund & Micro-Lending, investor materials, pitch, contracts and website kit." />
+  <style>
+    :root{
+      --primary:#2E7D32; /* deep green */
+      --accent:#F2C94C; /* gold */
+      --bg:#fff;
+      --muted:#666;
+      --card:#f7f9f7;
+      --maxw:980px;
+      --mono: 'Segoe UI', Roboto, Arial, sans-serif;
+    }
+    body{font-family:var(--mono);background:linear-gradient(180deg,#f3f9f3 0%, #fff 60%);color:#123;line-height:1.45;margin:0;padding:32px;display:flex;justify-content:center}
+    .wrap{width:100%;max-width:var(--maxw)}
+    header{display:flex;align-items:center;gap:18px}
+    .logo{width:84px;height:84px;display:flex;align-items:center;justify-content:center;border-radius:16px;background:var(--primary);color:white;font-weight:700}
+    .brand{font-size:20px}
+    h1{margin:6px 0 0;font-size:18px}
+    p.lead{color:var(--muted)}
+    nav{margin:22px 0;display:flex;gap:8px;flex-wrap:wrap}
+    .btn{background:var(--primary);color:white;padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:600}
+    .card{background:var(--card);padding:18px;border-radius:12px;margin-bottom:14px;box-shadow:0 6px 18px rgba(0,0,0,0.04)}
+    .two{display:grid;grid-template-columns:1fr 320px;gap:16px}
+    pre{white-space:pre-wrap;background:#fff;padding:12px;border-radius:8px;border:1px solid #eee}
+    footer{margin-top:18px;color:var(--muted);font-size:13px}
+    .download{display:inline-block;margin-right:8px}
+    .check{color:var(--primary);font-weight:700}
+    .actions{display:flex;gap:8px;flex-wrap:wrap}
+    .muted{color:var(--muted)}
+    @media(max-width:900px){.two{grid-template-columns:1fr}.logo{width:64px;height:64px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo" aria-hidden>
+        <!-- Simple SVG monogram for HeritageHarvest: HH leaf -->
+        <svg width="60" height="60" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none">
+          <rect width="64" height="64" rx="12" fill="#2E7D32"/>
+          <path d="M20 40c6-8 18-8 24 0" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M26 24c4 0 6-6 10-6" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div>
+        <div class="brand">HeritageHarvest Capital</div>
+        <h1>Agrifund & Micro-Lending — Investor Launch Kit</h1>
+        <p class="lead">Owner: Allen Baker — Full launch kit: pitch, business plan, investor contract, marketing & a working website you can deploy today.</p>
+      </div>
+    </header>
+
+    <nav>
+      <a class="btn" href="#pitch">Investor Pitch</a>
+      <a class="btn" href="#plan">Business Plan</a>
+      <a class="btn" href="#contract">Investor Contract</a>
+      <a class="btn" href="#brand">Brand & Assets</a>
+      <a class="btn" href="#site">Website Files</a>
+    </nav>
+
+    <section id="pitch" class="card">
+      <h2>Investor Pitch Email (ready-to-send)</h2>
+      <p class="muted">Personalise, paste into your email client, and send. The email contains clear terms and an onboarding link for investors.</p>
+      <pre id="pitchText">Subject: HeritageHarvest Capital – Secure Agrifund Investment Opportunity (From $100)
+
+Dear [Investor Name],
+
+My name is Allen Baker and I am the founder of HeritageHarvest Capital. We run a hybrid agrifund and micro-lending model that funds small-scale poultry and short-term business loans to local entrepreneurs. We are opening a limited early investment round to expand operations and scale returns.
+
+Key points:
+•    Low entry: invest from just $100.
+•    Allocation: funds are split between poultry production (60%) and micro-lending (40%).
+•    Target returns: conservative expected net return of 6–8% per cycle; detailed projections attached.
+•    Transparency: monthly operational reports, quarterly financials, and real-time updates via our investor portal.
+•    Limited allocation: once this round closes and expansion targets are met, no further shares will be issued.
+
+To view the full investment brief and reserve your allocation, click the onboarding link: [Onboarding Link – replace with your signup URL]
+
+If you’d like the investor contract or a short call, reply to this email and I will send everything over.
+
+Warm regards,
+Allen Baker
+Founder — HeritageHarvest Capital
+Email: allen@example.com | WhatsApp: +260 77X XXX XXX
+
+</pre>
+      <div class="actions">
+        <button onclick="download('pitch','HeritageHarvest_Pitch.txt')" class="btn download">Download Email (.txt)</button>
+        <button onclick="copyText('pitchText')" class="btn">Copy to Clipboard</button>
+      </div>
+    </section>
+
+    <section id="plan" class="card">
+      <h2>Full Business Plan (Executive summary + Financials)</h2>
+      <p class="muted">This is a ready-to-use business plan written to share with investors and upload as a PDF. Edit numbers to match your reality before sharing.</p>
+      <pre id="planText">HeritageHarvest Capital — Business Plan
+
+1. Executive Summary
+HeritageHarvest Capital is a Zambia-based agrifund and micro-lending business that combines smallholder poultry production with a short-term lending pool to local entrepreneurs. The model targets retired investors seeking conservative, tangible returns. Founder: Allen Baker.
+
+2. Opportunity
+High local demand for poultry products and strong need for short-term credit to small traders. Combining both diversifies risk and produces steady cash flow.
+
+3. Model
+• 60% of investor funds => Poultry: feed, chicks, housing improvements, veterinary.
+• 40% of investor funds => Micro-loans: short-term (30–90 days) to vetted small businesses at interest rates that create net yield for investors.
+• Fees: Management fee 8% of net profit for operations and reporting.
+
+4. Target Market
+Retired individuals and community groups seeking low-risk, steady returns and tangible assets.
+
+5. Operations
+• Farm operations: scale existing 10x5 chicken run into 3 cohorts of 200 birds each (by expansion).
+• Lending: local loan officers, KYC, basic credit scoring, collateral where possible.
+• Reporting: monthly production and loan performance dashboards.
+
+6. Financial Projections (example for first 12 months)
+Assume $10,000 raised in Round 1.
+• Poultry (60% = $6,000): Projection net yield after costs = 20% annually => $1,200
+• Micro-lending (40% = $4,000): Net yield after defaults = 12% annually => $480
+Gross return = $1,680 -> 16.8% on $10k. After management and reserve buffers (target 8% to investors), projected conservative payout = 6–8% per cycle.
+
+7. Risk & Mitigation
+• Biosecurity and vet support for poultry.
+• Loan diversification and strict vetting.
+• Reserve fund to cover unexpected losses.
+
+8. Use of funds
+• Infrastructure (feed storage, coop repairs) 30%
+• Chicks & feed 25%
+• Loan capital 40%
+• Admin & reporting 5%
+
+9. Exit & Liquidity
+• Quarterly redemptions with 30 days notice (subject to liquidity and operational cashflow).
+• Priority buyback from operating profits.
+
+10. Governance
+• Quarterly investor reports.
+• Advisory committee with external agronomist and finance advisor.
+
+</pre>
+      <div class="actions">
+        <button onclick="download('planText','HeritageHarvest_BusinessPlan.txt')" class="btn download">Download Business Plan (.txt)</button>
+        <button onclick="copyText('planText')" class="btn">Copy Plan</button>
+      </div>
+    </section>
+
+    <div class="two">
+      <section id="contract" class="card">
+        <h2>Investor Contract (Simple Agreement)</h2>
+        <p class="muted">A simple, clear contract you can present. This is a template — have a lawyer review before collecting funds.</p>
+        <pre id="contractText">HERITAGEHARVEST CAPITAL — INVESTOR AGREEMENT (SAMPLE)
+
+This Agreement is between HeritageHarvest Capital ("Manager") and the Investor named below.
+
+1. Investment: The Investor agrees to invest $[AMOUNT] on [DATE].
+2. Use of Funds: Funds will be used for poultry production and micro-lending as per the Investment Brief.
+3. Returns: The Manager aims to distribute net returns of approximately 6–8% per cycle. Returns are dependent on operational results and are not guaranteed.
+4. Reporting: The Manager will provide monthly summaries and quarterly financial statements.
+5. Term & Liquidity: The investment term is ongoing until redemption. Redemption requests require 30 days' notice and are subject to liquidity and operational reserves.
+6. Fees: Manager fee of 8% on net profits for operations and reporting.
+7. Risk Acknowledgement: Investor acknowledges the risks of agriculture and lending and accepts the Manager's mitigation measures.
+8. Governing Law: This Agreement is governed by the laws of Zambia. Parties should seek independent legal advice.
+
+Investor Name: ____________________
+Investment Amount: $______________
+Date: ____________________________
+Signature: ________________________
+
+Manager (Allen Baker) Signature: __________________
+Date: ________________________
+
+</pre>
+        <div class="actions">
+          <button onclick="download('contractText','HeritageHarvest_InvestorAgreement.txt')" class="btn download">Download Contract (.txt)</button>
+          <button onclick="copyText('contractText')" class="btn">Copy Contract</button>
+        </div>
+      </section>
+
+      <aside class="card">
+        <h3>Brand & Assets</h3>
+        <p class="muted">Colors, logo SVG, short bio, and social copy — ready to use.</p>
+        <p><strong>Business Name:</strong> HeritageHarvest Capital</p>
+        <p><strong>Tagline:</strong> Tangible returns. Trusted farming. Community growth.</p>
+        <p><strong>Primary color:</strong> <span class="check">#2E7D32</span> &nbsp; <strong>Accent:</strong> <span class="check">#F2C94C</span></p>
+        <h4>Short Bio (for profiles)</h4>
+        <pre id="bioText">HeritageHarvest Capital, founded by Allen Baker, provides accessible agrifund and micro-lending opportunities to conservative investors. Start from $100 and support local agriculture while earning steady returns.</pre>
+        <div class="actions">
+          <button onclick="download('bioText','HeritageHarvest_Bio.txt')" class="btn download">Download Bio</button>
+          <button onclick="copyText('bioText')" class="btn">Copy Bio</button>
+        </div>
+        <hr>
+        <h4>Social / WhatsApp Launch Message</h4>
+        <pre id="socialText">Join HeritageHarvest Capital: Invest from $100 to fund local poultry and small business loans. Target returns 6–8% per cycle. Limited early allocations. Reply to reserve your slot - Allen Baker (Founder)</pre>
+        <div class="actions"><button onclick="download('socialText','HeritageHarvest_Social.txt')" class="btn download">Download</button>
+        <button onclick="copyText('socialText')" class="btn">Copy</button></div>
+      </aside>
+    </div>
+
+    <section id="site" class="card">
+      <h2>Website Files (Single-File Launch Site)</h2>
+      <p class="muted">Below is a complete, single-file website you can deploy to GitHub Pages or Netlify. It includes: Home, About, Investor onboarding form, downloadable pitch, contract and plan.</p>
+      <p><strong>How to deploy in 10 minutes (quick):</strong></p>
+      <ol>
+        <li>Create a new GitHub repository named <code>heritageharvest-site</code> and upload the file <code>index.html</code> (the code below).</li>
+        <li>Enable GitHub Pages from repo settings (use main branch).</li>
+        <li>Or drag the same file to Netlify Drop for instant hosting.</li>
+      </ol>
+      <p class="muted">The full single-file site code is included below. Copy the code into <code>index.html</code> and deploy.</p>
+      <pre id="siteCode">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="utf-8" /&gt;
+  &lt;meta name="viewport" content="width=device-width,initial-scale=1" /&gt;
+  &lt;title&gt;HeritageHarvest Capital&lt;/title&gt;
+  &lt;style&gt;body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:20px;background:#f6fff6;color:#123}header{display:flex;align-items:center;gap:12px}h1{margin:0}a.btn{background:#2E7D32;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none}section{background:#fff;padding:16px;border-radius:10px;margin-top:12px}form input, form textarea{width:100%;padding:8px;margin:8px 0;border:1px solid #ddd;border-radius:6px}footer{margin-top:20px;color:#666;font-size:13px}</style>
+&lt;/head&gt;
+&lt;body&gt;
+&lt;header&gt;
+  &lt;div style="width:64px;height:64px;background:#2E7D32;border-radius:12px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700"&gt;HH&lt;/div&gt;
+  &lt;div&gt;&lt;h1&gt;HeritageHarvest Capital&lt;/h1&gt;&lt;p style="margin:2px;color:#666"&gt;Invest from $100 — Agrifund & Micro-lending&lt;/p&gt;&lt;/div&gt;
+&lt;/header&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Why Invest&lt;/h2&gt;
+  &lt;p&gt;We combine poultry production with short-term lending to deliver steady, tangible returns. Designed for conservative investors and retirees who prefer real-assets and predictable cashflow.&lt;/p&gt;
+  &lt;a class="btn" href="#onboard"&gt;Reserve Your Slot&lt;/a>
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Investor Onboarding&lt;/h2&gt;
+  &lt;form id="onboardForm" onsubmit="submitForm(event)">&lt;input placeholder="Full name" id="name" required /&gt;&lt;input placeholder="Email" type="email" id="email" required /&gt;&lt;input placeholder="Amount (USD)" id="amount" required /&gt;&lt;textarea placeholder="Message (optional)" id="msg" rows="3"&gt;&lt;/textarea&gt;&lt;button class="btn" type="submit"&gt;Submit &amp; Get Investor Pack&lt;/button&gt;&lt;/form&gt;
+  &lt;div id="formResponse" style="margin-top:12px;color:#2e7d32;font-weight:700"&gt;&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Downloads&lt;/h2&gt;
+  &lt;p&gt;Click to download investor pack files (business plan, pitch, contract).&lt;/p&gt;
+  &lt;button class="btn" onclick="downloadTxt('HeritageHarvest_BusinessPlan.txt',document.getElementById('planText').textContent)">Download Business Plan&lt;/button&gt;
+  &lt;button class="btn" onclick="downloadTxt('HeritageHarvest_Pitch.txt',document.getElementById('pitchText').textContent)" style="margin-left:8px"&gt;Download Pitch&lt;/button&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+  &lt;h2&gt;Contact&lt;/h2&gt;
+  &lt;p&gt;Founder: Allen Baker — Email: allen@example.com — WhatsApp: +26077XXXXXXX&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;footer&gt;© HeritageHarvest Capital — Sample site kit. Personalise contact details before use.&lt;/footer&gt;
+
+&lt;script&gt;function downloadTxt(filename, text){var blob=new Blob([text],{type:'text/plain'});var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=filename;document.body.appendChild(a);a.click();a.remove();}
+function submitForm(e){e.preventDefault();var n=document.getElementById('name').value;var em=document.getElementById('email').value;var amt=document.getElementById('amount').value;document.getElementById('formResponse').textContent='Thanks '+n+'. We sent your pack to '+em+' (demo).';setTimeout(()=>alert('DEMO: In production this will email the investor pack and log signup.'),200)}
+&lt;/script&gt;
+&lt;!-- Hidden prefilled texts for downloads (the site shell will write them on download) --&gt;
+&lt;pre id="planText" style="display:none"&gt;HeritageHarvest Capital Business Plan (download placeholder)...&lt;/pre&gt;
+&lt;pre id="pitchText" style="display:none"&gt;HeritageHarvest Capital Pitch (download placeholder)...&lt;/pre&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+      <div class="actions">
+        <button onclick="download('siteCode','index.html')" class="btn download">Download index.html</button>
+        <button onclick="copyText('siteCode')" class="btn">Copy Site Code</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Quick Launch Checklist — Get clients today</h2>
+      <ol>
+        <li>Replace placeholder contact details (email, WhatsApp) in downloads & site.</li>
+        <li>Deploy <code>index.html</code> to GitHub Pages or Netlify (instructions above).</li>
+        <li>Create a WhatsApp broadcast list & post the Social Launch Message (downloadable in Brand section).</li>
+        <li>Send the Investor Pitch email to 20–50 personal contacts and local retirement groups.</li>
+        <li>Offer a short, 15-minute call for questions — schedule via WhatsApp or phone.</li>
+        <li>Collect small pilot investments (from friends/family) and publish the first month’s report shortly after.</li>
+      </ol>
+      <p class="muted">Legal note: This kit is a template. You must comply with local laws when collecting investor funds. Have the contract reviewed by a lawyer and register any required financial licences.</p>
+    </section>
+
+    <footer>
+      <div>Need me to tailor any document (change numbers, edit terms, add your bank or payment details)? Reply and I will update the files.</div>
+    </footer>
+  </div>
+
+  <script>
+    function download(id, name){
+      const text = document.getElementById(id+'Text') ? document.getElementById(id+'Text').textContent : document.getElementById('siteCode').textContent;
+      const blob = new Blob([text], {type: 'text/plain'});
+      const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click(); a.remove();
+    }
+    function copyText(id){
+      const t = document.getElementById(id).textContent; navigator.clipboard.writeText(t).then(()=>alert('Copied to clipboard'))
+    }
+  </script>
+</body>
+</html>
+</pre>
+      <div class="actions"><button onclick="copyText('siteCode')" class="btn">Copy Site File</button></div>
+    </section>
+
+    <section class="card">
+      <h2>Next Steps I recommend (do these today)</h2>
+      <ol>
+        <li>Personalise: Replace sample email, WhatsApp and bank/payment details in all downloaded files.</li>
+        <li>Deploy: Upload <code>index.html</code> to GitHub Pages or Netlify to get a public URL.</li>
+        <li>Outreach: Send the investor pitch to personal contacts, retirement groups, church networks, and WhatsApp lists.</li>
+        <li>Collect pilot funds: Ask 5 friends or family to invest $100–500 each to create the first proof-of-performance report.</li>
+        <li>Publish first month results and testimonials to the site and social channels.</li>
+      </ol>
+      <p class="muted">If you want, I can now: create a ready-made GitHub repository structure, or rewrite numbers in the business plan to match a specific funding target (e.g., $5k, $10k). Tell me the target and payment methods and I will update everything in the kit.</p>
+    </section>
+
+  </div>
+
+  <script>
+    function downloadTxt(id, filename){
+      const text = document.getElementById(id).textContent || '';
+      const blob = new Blob([text], {type:'text/plain'});
+      const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = filename; document.body.appendChild(a); a.click(); a.remove();
+    }
+    function copyText(id){ const t = document.getElementById(id).textContent; navigator.clipboard.writeText(t).then(()=>alert('Copied'))}
+  </script>
